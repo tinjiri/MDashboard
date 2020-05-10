@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MDashboard.DataAccess\MDashboard.DataAccess.csproj" />
+    <ProjectReference Include="..\MDashboard.Domain\MDashboard.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
