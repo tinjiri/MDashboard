@@ -1,0 +1,9 @@
+E:\Mon Projects\MDashboard\MDashboard.Domain\bin\Debug\netcoreapp3.1\MDashboard.Domain.deps.json
+E:\Mon Projects\MDashboard\MDashboard.Domain\bin\Debug\netcoreapp3.1\MDashboard.Domain.dll
+E:\Mon Projects\MDashboard\MDashboard.Domain\bin\Debug\netcoreapp3.1\MDashboard.Domain.pdb
+E:\Mon Projects\MDashboard\MDashboard.Domain\obj\Debug\netcoreapp3.1\MDashboard.Domain.csproj.CoreCompileInputs.cache
+E:\Mon Projects\MDashboard\MDashboard.Domain\obj\Debug\netcoreapp3.1\MDashboard.Domain.AssemblyInfoInputs.cache
+E:\Mon Projects\MDashboard\MDashboard.Domain\obj\Debug\netcoreapp3.1\MDashboard.Domain.AssemblyInfo.cs
+E:\Mon Projects\MDashboard\MDashboard.Domain\obj\Debug\netcoreapp3.1\MDashboard.Domain.dll
+E:\Mon Projects\MDashboard\MDashboard.Domain\obj\Debug\netcoreapp3.1\MDashboard.Domain.pdb
+E:\Mon Projects\MDashboard\MDashboard.Domain\obj\Debug\netcoreapp3.1\MDashboard.Domain.csprojAssemblyReference.cache
