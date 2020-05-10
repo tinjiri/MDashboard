@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
 using MDashboard.DataAccess;
 using MDashboard.Domain.Abstract;
@@ -47,6 +49,9 @@ namespace MDashboard.WebAPI
                         Description = "Show Dashboard API",
                         Version = "v1"
                     });
+                var fileName =$"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+                var filePath = Path.Combine(AppContext.BaseDirectory,fileName);
+                options.IncludeXmlComments(filePath);
             });
         }
 

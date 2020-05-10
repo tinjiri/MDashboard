@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MDashboard.WebAPI</name>
+    </assembly>
+    <members>
+        <member name="T:MDashboard.WebAPI.Controllers.LookupController">
+            <summary>
+            Lookup api to retrieve the lookups used by dashboard.
+            </summary>
+        </member>
+        <member name="M:MDashboard.WebAPI.Controllers.LookupController.GetLookupData">
+            <summary>
+            returns Title lookupdata
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

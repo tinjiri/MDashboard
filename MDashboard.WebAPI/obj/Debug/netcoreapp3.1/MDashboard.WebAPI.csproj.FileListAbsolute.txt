@@ -134,3 +134,7 @@ E:\Mon Projects\MDashboard\MDashboard.WebAPI\bin\Debug\netcoreapp3.1\Swashbuckle
 E:\Mon Projects\MDashboard\MDashboard.WebAPI\obj\Debug\netcoreapp3.1\MDashboard.WebAPI.csproj.CoreCompileInputs.cache
 E:\Mon Projects\MDashboard\MDashboard.WebAPI\obj\Debug\netcoreapp3.1\MDashboard.WebAPI.MvcApplicationPartsAssemblyInfo.cs
 E:\Mon Projects\MDashboard\MDashboard.WebAPI\obj\Debug\netcoreapp3.1\MDashboard.WebAPI.MvcApplicationPartsAssemblyInfo.cache
+E:\Mon Projects\MDashboard\MDashboard.WebAPI\obj\Debug\netcoreapp3.1\MDashboard.WebAPI.Properties.Resources.resources
+E:\Mon Projects\MDashboard\MDashboard.WebAPI\obj\Debug\netcoreapp3.1\MDashboard.WebAPI.csproj.GenerateResource.cache
+E:\Mon Projects\MDashboard\MDashboard.WebAPI\bin\Debug\netcoreapp3.1\MDashboard.WebAPI.xml
+E:\Mon Projects\MDashboard\MDashboard.WebAPI\obj\Debug\netcoreapp3.1\MDashboard.WebAPI.xml
