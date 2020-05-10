@@ -5,13 +5,15 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "MDashbard.Database", "MDashbard.Database\MDashbard.Database.sqlproj", "{181BA42A-D047-43AB-9DE1-990947A92F22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDashboard.DataAccess", "MDashboard.DataAccess\MDashboard.DataAccess.csproj", "{BDF6FAD9-1A82-4B94-9870-E3FF6D489026}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MDashboard.DataAccess", "MDashboard.DataAccess\MDashboard.DataAccess.csproj", "{BDF6FAD9-1A82-4B94-9870-E3FF6D489026}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDashboard.Domain", "MDashboard.Domain\MDashboard.Domain.csproj", "{E28D1BFE-C1A3-4594-A379-BDF5CD254A06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MDashboard.Domain", "MDashboard.Domain\MDashboard.Domain.csproj", "{E28D1BFE-C1A3-4594-A379-BDF5CD254A06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDashboard.WebAPI", "MDashboard.WebAPI\MDashboard.WebAPI.csproj", "{7DD4E4DB-6EB7-4C37-B7C2-EFC79B2256D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MDashboard.WebAPI", "MDashboard.WebAPI\MDashboard.WebAPI.csproj", "{7DD4E4DB-6EB7-4C37-B7C2-EFC79B2256D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDashboard.Services", "MDashboard.Services\MDashboard.Services.csproj", "{789A7B91-237C-44AF-838B-7D4389D0B8D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MDashboard.Services", "MDashboard.Services\MDashboard.Services.csproj", "{789A7B91-237C-44AF-838B-7D4389D0B8D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDashboard.Tests", "MDashboard.Tests\MDashboard.Tests.csproj", "{C83D8A91-25F2-49D5-B460-BEAE0BB026B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{789A7B91-237C-44AF-838B-7D4389D0B8D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{789A7B91-237C-44AF-838B-7D4389D0B8D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{789A7B91-237C-44AF-838B-7D4389D0B8D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C83D8A91-25F2-49D5-B460-BEAE0BB026B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C83D8A91-25F2-49D5-B460-BEAE0BB026B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C83D8A91-25F2-49D5-B460-BEAE0BB026B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C83D8A91-25F2-49D5-B460-BEAE0BB026B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
