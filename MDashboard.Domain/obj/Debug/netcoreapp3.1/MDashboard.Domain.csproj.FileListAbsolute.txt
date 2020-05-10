@@ -6,3 +6,4 @@ E:\Mon Projects\MDashboard\MDashboard.Domain\obj\Debug\netcoreapp3.1\MDashboard.
 E:\Mon Projects\MDashboard\MDashboard.Domain\obj\Debug\netcoreapp3.1\MDashboard.Domain.AssemblyInfo.cs
 E:\Mon Projects\MDashboard\MDashboard.Domain\obj\Debug\netcoreapp3.1\MDashboard.Domain.dll
 E:\Mon Projects\MDashboard\MDashboard.Domain\obj\Debug\netcoreapp3.1\MDashboard.Domain.pdb
+E:\Mon Projects\MDashboard\MDashboard.Domain\obj\Debug\netcoreapp3.1\MDashboard.Domain.csprojAssemblyReference.cache
