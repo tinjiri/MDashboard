@@ -1,0 +1,10 @@
+E:\Mon Projects\MDashboard\MDashbard.Database\bin\Debug\MDashbard.Database.dacpac
+E:\Mon Projects\MDashboard\MDashbard.Database\bin\Debug\MDashbard.Database.dll
+E:\Mon Projects\MDashboard\MDashbard.Database\bin\Debug\MDashbard.Database.pdb
+E:\Mon Projects\MDashboard\MDashbard.Database\obj\Debug\MDashbard.Database.dll
+E:\Mon Projects\MDashboard\MDashbard.Database\obj\Debug\MDashbard.Database.pdb
+E:\Mon Projects\MDashboard\MDashbard.Database\obj\Debug\Model.xml
+E:\Mon Projects\MDashboard\MDashbard.Database\obj\Debug\refactor.xml
+E:\Mon Projects\MDashboard\MDashbard.Database\obj\Debug\postdeploy.sql
+E:\Mon Projects\MDashboard\MDashbard.Database\obj\Debug\predeploy.sql
+E:\Mon Projects\MDashboard\MDashbard.Database\obj\Debug\MDashbard.Database.sqlprojAssemblyReference.cache

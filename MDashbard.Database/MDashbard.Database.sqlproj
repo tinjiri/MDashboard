@@ -56,5 +56,30 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+    <Folder Include="DashboardDb\Scripts" />
+    <Folder Include="DashboardDb" />
+    <Folder Include="DashboardDb\Tables" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DashboardDb\Scripts\Title.sql" />
+    <PostDeploy Include="PostDeployment.sql" />
+    <Build Include="DashboardDb\Tables\Component.sql" />
+    <Build Include="DashboardDb\Tables\Department.sql" />
+    <Build Include="DashboardDb\Tables\DepartmentManager.sql" />
+    <Build Include="DashboardDb\Tables\Designation.sql" />
+    <Build Include="DashboardDb\Tables\DesignationLevel.sql" />
+    <Build Include="DashboardDb\Tables\Employee.sql" />
+    <Build Include="DashboardDb\Tables\EmployeeStatus.sql" />
+    <Build Include="DashboardDb\Tables\EmploymentStatus.sql" />
+    <Build Include="DashboardDb\Tables\Job.sql" />
+    <Build Include="DashboardDb\Tables\JobStatus.sql" />
+    <Build Include="DashboardDb\Tables\Location.sql" />
+    <Build Include="DashboardDb\Tables\Title.sql" />
+    <None Include="MDashbard.Database.dbmdl" />
+    <None Include="MDashbard.Database.jfm" />
+    <None Include="MDashbard.Database.sqlproj.user" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="localdb.publish.xml" />
   </ItemGroup>
 </Project>

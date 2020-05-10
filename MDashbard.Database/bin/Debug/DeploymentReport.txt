@@ -1,0 +1,26 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Component] (Table)
+       [dbo].[Department] (Table)
+       [dbo].[DepartmentManager] (Table)
+       [dbo].[Designation] (Table)
+       [dbo].[DesignationLevel] (Table)
+       [dbo].[Employee] (Table)
+       [dbo].[EmployeeStatus] (Table)
+       [dbo].[EmploymentStatus] (Table)
+       [dbo].[Job] (Table)
+       [dbo].[JobStatus] (Table)
+       [dbo].[Location] (Table)
+       [dbo].[Title] (Table)
+
+** Supporting actions
