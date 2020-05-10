@@ -1,0 +1,15 @@
+E:\Mon Projects\MDashboard\MDashboard.DataAccess\bin\Debug\netcoreapp3.1\MDashboard.DataAccess.deps.json
+E:\Mon Projects\MDashboard\MDashboard.DataAccess\bin\Debug\netcoreapp3.1\MDashboard.DataAccess.dll
+E:\Mon Projects\MDashboard\MDashboard.DataAccess\bin\Debug\netcoreapp3.1\MDashboard.DataAccess.pdb
+E:\Mon Projects\MDashboard\MDashboard.DataAccess\obj\Debug\netcoreapp3.1\MDashboard.DataAccess.csprojAssemblyReference.cache
+E:\Mon Projects\MDashboard\MDashboard.DataAccess\obj\Debug\netcoreapp3.1\MDashboard.DataAccess.AssemblyInfoInputs.cache
+E:\Mon Projects\MDashboard\MDashboard.DataAccess\obj\Debug\netcoreapp3.1\MDashboard.DataAccess.AssemblyInfo.cs
+E:\Mon Projects\MDashboard\MDashboard.DataAccess\obj\Debug\netcoreapp3.1\MDashboard.DataAccess.dll
+E:\Mon Projects\MDashboard\MDashboard.DataAccess\obj\Debug\netcoreapp3.1\MDashboard.DataAccess.pdb
+E:\Mon Projects\MDashboard\MDashboard.DataAccess\bin\Debug\netcoreapp3.1\MDashboard.DataAccess.runtimeconfig.json
+E:\Mon Projects\MDashboard\MDashboard.DataAccess\bin\Debug\netcoreapp3.1\MDashboard.DataAccess.runtimeconfig.dev.json
+E:\Mon Projects\MDashboard\MDashboard.DataAccess\obj\Debug\netcoreapp3.1\MDashboard.DataAccess.genruntimeconfig.cache
+E:\Mon Projects\MDashboard\MDashboard.DataAccess\bin\Debug\netcoreapp3.1\MDashboard.Domain.dll
+E:\Mon Projects\MDashboard\MDashboard.DataAccess\bin\Debug\netcoreapp3.1\MDashboard.Domain.pdb
+E:\Mon Projects\MDashboard\MDashboard.DataAccess\obj\Debug\netcoreapp3.1\MDashboard.DataAccess.csproj.CoreCompileInputs.cache
+E:\Mon Projects\MDashboard\MDashboard.DataAccess\obj\Debug\netcoreapp3.1\MDashboard.DataAccess.csproj.CopyComplete
