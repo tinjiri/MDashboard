@@ -10,6 +10,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace MDashboard.WebAPI.Controllers
 {
+    /// <summary>
+    /// Lookup api to retrieve the lookups used by dashboard.
+    /// </summary>
     [Route("api/[controller]")]
     [ApiController]
     public class LookupController : ControllerBase
@@ -26,11 +29,14 @@ namespace MDashboard.WebAPI.Controllers
         /// <returns></returns>
         [HttpGet("lookupdata")]
         //[ProducesResponseType(200)]
-        public ActionResult<List<Title>> GetLookupData()
+
+        public ActionResult<LookupDataSet> GetLookupData()
         {
+            LookupDataSet lookupDataSet = new LookupDataSet();
+            lookupDataSet.Titles = lookupService.GetTitles().Select(x => x.Map()).ToArray();
 
-            return lookupService.GetTitles().Select(x => x.Map()).ToList();
+            // return lookupService.GetTitles().Select(x => x.Map()).ToList();
+            return lookupDataSet;
         }
-
     }
 }
