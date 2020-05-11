@@ -10,10 +10,18 @@ Post-Deployment Script Template
 --------------------------------------------------------------------------------------
 */
 
+:r .\DashboardDb\Scripts\Department.sql
+GO
 
+:r .\DashboardDb\Scripts\JobStatus.sql
+GO
 
+:r .\DashboardDb\Scripts\Location.sql
+GO
 
 :r .\DashboardDb\Scripts\Title.sql
 GO
+
+
 
 

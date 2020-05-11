@@ -1,0 +1,28 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[Department].[DepartmentDescription] is being dropped, data loss could occur.
+       The column [dbo].[Location].[LocationDescription] is being dropped, data loss could occur.
+       The column [dbo].[Title].[TitleAbbreviation] is being dropped, data loss could occur.
+       The column [dbo].[Title].[TitleName] is being dropped, data loss could occur.
+
+** User actions
+     Alter
+       [dbo].[Department] (Table)
+       [dbo].[Location] (Table)
+       [dbo].[Title] (Table)
+     Create
+       [dbo].[Priority] (Table)
+
+** Supporting actions
+
+The column [dbo].[Department].[DepartmentDescription] is being dropped, data loss could occur.
+The column [dbo].[Location].[LocationDescription] is being dropped, data loss could occur.
+The column [dbo].[Title].[TitleAbbreviation] is being dropped, data loss could occur.
+The column [dbo].[Title].[TitleName] is being dropped, data loss could occur.
+

@@ -1,19 +1,21 @@
 ﻿MERGE [Title] WITH (SERIALIZABLE) AS T
 USING (VALUES 
-(1,'Mister','Mister', 'MR', 'Mr'),
-(2,'Professor','Professor', 'Prof', 'Prof'),
-(3,'Mrs','Mistress', 'MRS', 'Mrs')
-) 	AS U ([TitleId],	[TitleName] ,	[TitleDescription] ,	[TitleCode] ,	[TitleAbbreviation] )
+(1,'Mister',  'Mr'),
+(2,'Professor', 'Prof'),
+(3,'Mrs', 'Mrs'),
+(4,'Engineer', 'Eng'),
+(5,'Mistress', 'Ms'),
+(6,'Mistress',  'Miss'),
+(7,'Doctor', 'Dr')
+) 	AS U ([TitleId],	[TitleDescription] ,	[TitleCode] )
 	ON U.[TitleId]=T.[TitleId]	
 
 WHEN MATCHED THEN 
-    UPDATE SET T.[TitleName] = U.[TitleName],
-	 T.[TitleDescription] = U.[TitleDescription],
-     	 T.[TitleCode] = U.[TitleCode],
-         	 T.[TitleAbbreviation] = U.[TitleAbbreviation]
+    UPDATE SET T.[TitleDescription] = U.[TitleDescription],
+     	 T.[TitleCode] = U.[TitleCode]
 WHEN NOT MATCHED THEN
-    INSERT ([TitleId], [TitleName] ,[TitleDescription], [TitleCode], [TitleAbbreviation]) 
-    VALUES (U.[TitleId],U.[TitleName] ,U.[TitleDescription] , U.[TitleCode], U.[TitleAbbreviation]);
+    INSERT ([TitleId], [TitleDescription], [TitleCode]) 
+    VALUES (U.[TitleId],U.[TitleDescription] , U.[TitleCode]);
 
 
 

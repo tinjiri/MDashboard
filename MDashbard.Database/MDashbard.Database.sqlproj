@@ -82,4 +82,17 @@
   <ItemGroup>
     <None Include="localdb.publish.xml" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="DashboardDb\Scripts\JobStatus.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DashboardDb\Scripts\Department.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DashboardDb\Scripts\Location.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="DashboardDb\Tables\Priority.sql" />
+    <None Include="DashboardDb\Scripts\Priority.sql" />
+  </ItemGroup>
 </Project>
