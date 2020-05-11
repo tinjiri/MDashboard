@@ -12,6 +12,7 @@ namespace MDashboard.Domain.Entities
         public string DesignationDescription { get; set; }
         public string DesignationCode { get; set; }
         public int DesignationLevelId { get; set; }
+
     }
 }
 

@@ -9,10 +9,10 @@ namespace MDashboard.Domain.Entities
     {
         public int DepartmentId { get; set; }
         public string DepartmentName { get; set; }
-        public string DepartmentDescription { get; set; }
+        //public string DepartmentDescription { get; set; }
         public string DepartmentCode { get; set; }
         public int LocationId { get; set; }
-        public ICollection<Employee> Employees { get; set; }
+        //public ICollection<Employee> Employees { get; set; }
     }
 }
 
