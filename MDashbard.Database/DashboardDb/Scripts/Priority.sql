@@ -8,7 +8,7 @@ USING (VALUES
 	ON U.[PriorityId]=T.[PriorityId]	
 
 WHEN MATCHED THEN 
-    UPDATE SET T.[PriorityDescription] =		U.[PriorityDescription] ,	
+    UPDATE SET T.[PriorityDescription] = U.[PriorityDescription] ,	
                 T.[PriorityCode] =U.[PriorityCode] ,
                 T.[PriorityColor]=U.[PriorityColor]
 WHEN NOT MATCHED THEN
