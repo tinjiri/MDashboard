@@ -19,6 +19,9 @@ GO
 :r .\DashboardDb\Scripts\Location.sql
 GO
 
+:r .\DashboardDb\Scripts\Priority.sql
+GO
+
 :r .\DashboardDb\Scripts\Title.sql
 GO
 
