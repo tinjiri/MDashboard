@@ -34,7 +34,9 @@ namespace MDashboard.WebAPI.Controllers
         {
             LookupDataSet lookupDataSet = new LookupDataSet();
             lookupDataSet.Titles = lookupService.GetTitles().Select(x => x.Map()).ToArray();
-
+            lookupDataSet.Locations = lookupService.GetLocations().Select(x => x.Map()).ToArray();
+            lookupDataSet.JobStatuses = lookupService.GetJobStatuses().Select(x => x.Map()).ToArray();
+            lookupDataSet.Priorities = lookupService.GetPriorities().Select(x => x.Map()).ToArray();
             // return lookupService.GetTitles().Select(x => x.Map()).ToList();
             return lookupDataSet;
         }
