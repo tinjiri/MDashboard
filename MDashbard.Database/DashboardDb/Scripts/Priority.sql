@@ -3,7 +3,7 @@ USING (VALUES
 (1,'Low','LOW','Yellow'),
 (2,'Medium','MED','Orange'),
 (3,'High','HIGH','Red'),
-(4,'Critical','CRI','Maroon')
+(4,'Critical','CRT','Maroon')
 ) 	AS U ([PriorityId] ,		[PriorityDescription] ,	[PriorityCode], [PriorityColor]  )
 	ON U.[PriorityId]=T.[PriorityId]	
 
